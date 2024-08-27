@@ -22,3 +22,4 @@ if __name__ == "__main__":
     test([230, None, 2], 115)
     test([None, 220, 0.02], 4.4)
     test([None, None, 2], "Invalid")
+    test([None, None, None], "Invalid")
