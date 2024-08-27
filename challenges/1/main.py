@@ -7,11 +7,4 @@ def capToFront(input):
     Returns:
         str: The result.
     """
-    lower = []
-    upper = []
-    for char in input:
-        if char.isupper():
-            upper.append(char)
-        else:
-            lower.append(char)
-    return "".join(lower)
+
